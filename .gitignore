@@ -1,0 +1,46 @@
+# ---- Virtual environment (this project is a venv-in-repo) ----
+bin/
+etc/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+.venv/
+venv/
+env/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Testing / coverage ----
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ---- Environment & secrets ----
+.env
+*.env
+!.env.example
+
+# ---- Application data ----
+finetune_tracker.db
+*.sqlite
+*.sqlite3
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
